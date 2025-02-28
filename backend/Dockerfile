@@ -1,5 +1,4 @@
 FROM node:20
-# RUN mkdir /opt/backend
 WORKDIR /opt/backend
 COPY package.json .
 COPY *.js .
